@@ -15,7 +15,141 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background-image: linear-gradient(to bottom right, #C8DCE5, #B6CCDA);
   font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.flex{
+  display: flex;
+ justify-content: space-around;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1rem;
+}
+
+nav{
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+li:hover{
+  background-color: #fff;
+  padding: 5 36 5 36;
+border-radius: 100px;
+text-align: center;
+color: #B6CCDA;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  color: #fff;
+}
+
+.nav-icon{
+  height: 24px;
+  width: 24px;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./fonts/Poppins.woff2);
+  color: #fff;
+}
+
+.flex-icons{
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+button{
+  font-family: "Poppins";
+  font-size: 24px;
+  padding: 17 73 17 73;
+  border: 3px solid #fff;
+  border-radius: 100px;
+  color: #FFFAFA;
+}
+
+.grid_3-2-1{
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+}
+
+section h1{
+color: #FFF;
+font-family: "Poppins";
+font-size: 64px;
+}
+
+.dots-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2px;
+  align-items: center;
+}
+
+.color1{
+  background-color: #404354;
+}
+.color2{
+  background-color: #58D7C4;
+}
+.color3{
+  background-color: #F2CEC6;
+}
+
+.icon-dots{
+  color: #FFF;
+}
+
+.color1, .color2, .color3{
+  transition: transform 0.3s ease;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  border: solid 2px #fff;
+}
+
+.color1:hover, .color2:hover, .color3:hover{
+  transform: scale(1.2); 
+}
+
+.bg-color1, .bg-color2, .bg-color3{
+  border-radius: 10px;
+  width: 131px;
+height: 70px;
+  z-index: 0;
+}
+
+.bg-color1{
+  background-color: #43455899;
+}
+.bg-color2{
+  background-color: #6ADDCC99;
+}
+.bg-color3{
+  background-color: #F9CDC499;
+}
+
+.watch-img{
+  z-index: 10;
+  position: absolute;
+}
+
+.watch-flex{
+  display: flex;
+  gap: 50px;
 }

@@ -7,7 +7,7 @@ const Content = () => {
             <h1>The Perfect Moment
 Between Past And 
 Future.</h1></div><div>
-<img src="./img/navy.svg" alt="watch" /></div>
+<img src="./navy.png" alt="watch" /></div>
 <div>
     <Dots/>
 </div>

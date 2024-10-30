@@ -132,6 +132,9 @@ font-size: 64px;
   width: 131px;
 height: 70px;
   z-index: 0;
+  position: absolute;
+  top: 30px;
+  left: -15px; 
 }
 
 .bg-color1{
@@ -146,10 +149,28 @@ height: 70px;
 
 .watch-img{
   z-index: 10;
-  position: absolute;
+  position: relative;
+  width: 90px;
+  height: 90px;
 }
 
 .watch-flex{
   display: flex;
   gap: 50px;
+  justify-content: flex-end;
+}
+
+.watch-container {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.arrow-flex{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  color: #FFF;
 }

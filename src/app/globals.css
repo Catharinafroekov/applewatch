@@ -174,3 +174,10 @@ height: 70px;
   align-items: center;
   color: #FFF;
 }
+
+.footer-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* margin: 40px; */
+}

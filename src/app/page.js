@@ -2,8 +2,7 @@ import Image from "next/image";
 import Nav from "./components/Nav";
 import Button from "./components/Button";
 import Content from "./components/Content";
-import Watches from "./components/Watches";
-import Pageturner from "./components/Pageturner";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -11,8 +10,7 @@ export default function Home() {
       <Nav/>
      <Content/>
       <Button/>
-      <Pageturner/>
-      <Watches/>
+      <Footer/>
     </div>
   );
 }
